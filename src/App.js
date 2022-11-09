@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card fname="Christoph" lname="Derigo" age="18" role="kek" />
+      <Card fname="Kristijan" lname="Mlado" age="19" role="Nuss" />
+      <Card fname="Atakan" lname="Celik" age="19" role="Haram" />
+      <Card fname="Fabian" lname="Türtschi" age="19" role="Boss" />
+      <Card fname="Sebastian" lname="Gärtner" age="18" role="Gärtner" />
     </div>
   );
 }

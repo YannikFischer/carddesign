@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    color: whitesmoke;
+    padding: 50px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    position:relative;
+    background-image: url(chrisohohoho.PNG);
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-radius: 40px;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstName {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0px 0px 20px;
+    z-index: 2;
+}
+
+.lastName {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: -15px;
+    opacity: 60%;
+    z-index: 2;
+}
+
+.age {
+    font-size: 60px;
+    right: 30px;
+    top: 60px;
+    opacity: 60%;
+    z-index: 10;
+    position: absolute;
+    transition: all 0.2s ease-in-out;
+}
+
+.role {
+    margin: 10px 0px 10px 20px;
+    font-size: 40px;
+    text-align: center;
+}
